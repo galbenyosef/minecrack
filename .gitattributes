@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.zip -text
+# Keep the verified upstream license bytes unchanged on Windows checkouts.
+docs/licenses/* -text

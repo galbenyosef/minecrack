@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#18392b" />
+    <meta
+      name="description"
+      content="Minecrack, un jeu de survie 3D dans un monde hexagonal. Explorez, construisez et découvrez seize surprises dans les Lucky Blocks."
+    />
+    <title>Minecrack — Survie hexagonale</title>
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23f7c760' d='M32 3 58 18v28L32 61 6 46V18z'/%3E%3Cpath fill='%23294231' d='M19 20h8l5 9 5-9h8v25h-8V32l-5 9-5-9v13h-8z'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <main id="app" aria-label="Monde de Minecrack"></main>
+    <div
+      id="boot-loading"
+      style="
+        position: fixed;
+        inset: 0;
+        z-index: 100;
+        background: #18392b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #f9f6e9;
+        font: 700 18px system-ui;
+        letter-spacing: 5px;
+      "
+    >
+      MINECRACK
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

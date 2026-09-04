@@ -1,0 +1,14 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+playwright-report/
+test-results/
+.playwright-cli/
+release/
+output/
+artifacts/
+.env
+.env.*
+*.pem
+*.key
